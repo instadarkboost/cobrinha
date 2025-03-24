@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Cobrinha</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: start;
+            height: 100vh;
+            margin: 0;
+            background: url(img/cena-da-floresta-com-varias-arvores-da-floresta_1308-57640.avif) no-repeat center center fixed;
+            background-size: cover;
+        }
+        img {
+            width: 100%;
+            max-width: 1000px;
+            margin-top: 10px;
+        }
+        canvas {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: start;
+            height: 55vh;
+            margin: 0;
+            background: url(img/ssss.avif) no-repeat center center fixed;
+            background-size: cover;
+            margin-top: 10px;
+            border: 8px solid black;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <img src="img/jogo-da-cobrinha-torta-24-03-2025.png" alt="Imagem do Jogo">
+    <canvas id="jogoCanvas" width="800" height="400"></canvas>
+    <script src="cobra.js"></script>
+</body>
+</html>
